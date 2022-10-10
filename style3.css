@@ -1,0 +1,79 @@
+section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+section .imgBox{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-color: #F9F7FF;
+}
+
+section .imgBox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+
+.container3{
+	display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: center;
+}
+
+.container3 > div{
+	margin: 5px;
+}
+
+.center{
+	text-align: center;
+}
+
+section .contentBox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+}
+
+section .contentBox .formBox{
+	width: 50%;
+}
+
+.button {
+        background-color: #6255A5;
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+}
+.container1 {
+        padding: 16px;
+}
+input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: #F9F7FF;
+}
